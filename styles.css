@@ -132,6 +132,7 @@ body {
     position: absolute;
     bottom: 10px;
     text-align: center;
-    font-size: 14px;
-    color: white;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
 }
