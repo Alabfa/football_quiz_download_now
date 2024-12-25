@@ -46,7 +46,7 @@ body {
 
 .row {
     display: flex;
-    align-items: center;    
+    align-items: center;
 }
 
 #appIconImg {
@@ -64,7 +64,7 @@ body {
 
 #descTxt {
     margin: 10px 0px;
-    font-size: 20px;    
+    font-size: 20px;
 }
 
 #btns-row {
@@ -89,14 +89,14 @@ body {
     cursor: pointer;
 }
 
-    .download-btn:hover {
-        opacity: 0.7;
-    }
+.download-btn:hover {
+    opacity: 0.7;
+}
 
-    .download-btn img {
-        height: 35px;
-        margin-right: 10px;
-    }
+.download-btn img {
+    height: 35px;
+    margin-right: 10px;
+}
 
 .source-code-btn {
     background-color: white;
@@ -112,14 +112,14 @@ body {
     cursor: pointer;
 }
 
-    .source-code-btn:hover {
-        opacity: 0.7;
-    }
+.source-code-btn:hover {
+    opacity: 0.7;
+}
 
-    .source-code-btn img {
-        height: 30px;
-        margin-right: 10px;
-    }
+.source-code-btn img {
+    height: 30px;
+    margin-right: 10px;
+}
 
 
 @media (max-width: 600px) {

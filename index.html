@@ -1,36 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="https://raw.githubusercontent.com/Alabfa/football_quiz/refs/heads/main/assets/imgs/app_icon.png">
+    <link rel="icon"
+        href="https://raw.githubusercontent.com/Alabfa/football_quiz/refs/heads/main/assets/imgs/app_icon.png">
     <title>Football Quiz - Download Now</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
-<body>
-    <form id="form1" runat="server">
-        <div id="big-continer">
-            <div class="container">
-                <div class="row">
-                    <img id="appIconImg" src="assets/imgs/app-icon.png" />
-                    <p id="appNameTxt">Football Quiz</p>
-                </div>
-                <p id="descTxt"><b>Football Quiz</b> is a fun and educational app where users identify football team names based on their flags, with updated Premier League and La Liga data. It supports both Arabic and English.</p>
 
-                <div id="btns-row">
-                    <button id="downloadBtn" runat="server" class="download-btn" onserverclick="downloadBtn_Click">
-                        <img src="https://cdn-icons-png.flaticon.com/512/174/174836.png" alt="Download Icon" />
-                        <span>Download APK</span>
-                    </button>
-                    <button id="sourceCodeBtn" runat="server" class="source-code-btn" onserverclick="sourceCodeBtn_Click">
-                        <img src="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/github-512.png" alt="Download Icon" />
-                        <span>Source Code on Github</span>
-                    </button>
-                </div>
-                
+<body>
+    <div id="big-continer">
+        <div class="container">
+            <div class="row">
+                <img id="appIconImg" src="assets/imgs/app-icon.png" />
+                <p id="appNameTxt">Football Quiz</p>
             </div>
-            <p id="footer">© 2024 Ali Deyah. All Rights Reserved.</p>
-        </div>        
-    </form>
+            <p id="descTxt"><b>Football Quiz</b> is a fun and educational app where users identify football team names
+                based on their flags, with updated Premier League and La Liga data. It supports both Arabic and English.
+            </p>
+
+            <div id="btns-row">
+                <button id="downloadBtn" runat="server" class="download-btn" onserverclick="downloadBtn_Click">
+                    <img src="https://cdn-icons-png.flaticon.com/512/174/174836.png" alt="Download Icon" />
+                    <span>Download APK</span>
+                </button>
+                <button id="sourceCodeBtn" runat="server" class="source-code-btn" onserverclick="sourceCodeBtn_Click">
+                    <img src="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/github-512.png"
+                        alt="Download Icon" />
+                    <span>Source Code on Github</span>
+                </button>
+            </div>
+
+        </div>
+        <p id="footer">© 2024 Ali Deyah. All Rights Reserved.</p>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
 </body>
+
 </html>
