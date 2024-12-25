@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'Janna';
+    src: url('assets/fonts/Janna LT Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Janna';
+    src: url('assets/fonts/Janna LT Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Janna', sans-serif;
+}
+
+#big-continer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+    background-image: linear-gradient(to bottom right, #4CAF50, #A0B5A1);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    background-color: white;
+    padding: 15px;
+    margin: 20px 20px 45px 20px;
+    border-radius: 15px;
+    max-width: 800px;
+    box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.2);
+}
+
+.row {
+    display: flex;
+    align-items: center;    
+}
+
+#appIconImg {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 12px 4px rgb(128, 128, 128, 0.4);
+}
+
+#appNameTxt {
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: calc(25px + 0.4vw);
+}
+
+#descTxt {
+    margin: 10px 0px;
+    font-size: 20px;    
+}
+
+#btns-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: end;
+    align-items: center;
+}
+
+.download-btn {
+    background-color: #08190C;
+    color: white;
+    border: none;
+    padding: 12px 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+    .download-btn:hover {
+        opacity: 0.7;
+    }
+
+    .download-btn img {
+        height: 35px;
+        margin-right: 10px;
+    }
+
+.source-code-btn {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 15px 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+    .source-code-btn:hover {
+        opacity: 0.7;
+    }
+
+    .source-code-btn img {
+        height: 30px;
+        margin-right: 10px;
+    }
+
+
+@media (max-width: 600px) {
+    #btns-row {
+        flex-direction: column;
+    }
+}
+
+#footer {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
